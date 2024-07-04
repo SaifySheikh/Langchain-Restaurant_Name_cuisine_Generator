@@ -7,7 +7,7 @@ from secret_key import openapi_key
 import os
 os.environ['OPENAI_API_KEY'] = openapi_key
 
-llm = OpenAI(temperature=0.7)
+llm = OpenAI(temperature=0.9)
 
 def generate_restaurant_name_and_items(cuisine):
     # Chain 1: Restaurant Name
